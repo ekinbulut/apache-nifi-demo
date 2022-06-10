@@ -1,42 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <template encoding-version="1.3">
     <description></description>
-    <groupId>4291b981-0181-1000-4d8b-d208a818a3e4</groupId>
-    <name>template-v2</name>
+    <groupId>4c8edfb1-0181-1000-2f44-217fce1377e2</groupId>
+    <name>template-v3</name>
     <snippet>
         <connections>
-            <id>19983e97-f185-392f-0000-000000000000</id>
-            <parentGroupId>3db5364f-e812-3840-0000-000000000000</parentGroupId>
+            <id>8417b9f5-7826-308f-0000-000000000000</id>
+            <parentGroupId>efe14a26-59ba-39bb-0000-000000000000</parentGroupId>
             <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
             <backPressureObjectThreshold>10000</backPressureObjectThreshold>
             <destination>
-                <groupId>3db5364f-e812-3840-0000-000000000000</groupId>
-                <id>7106d9bf-c320-350c-0000-000000000000</id>
-                <type>OUTPUT_PORT</type>
-            </destination>
-            <flowFileExpiration>0 sec</flowFileExpiration>
-            <labelIndex>1</labelIndex>
-            <loadBalanceCompression>DO_NOT_COMPRESS</loadBalanceCompression>
-            <loadBalancePartitionAttribute></loadBalancePartitionAttribute>
-            <loadBalanceStatus>LOAD_BALANCE_NOT_CONFIGURED</loadBalanceStatus>
-            <loadBalanceStrategy>DO_NOT_LOAD_BALANCE</loadBalanceStrategy>
-            <name></name>
-            <selectedRelationships>success</selectedRelationships>
-            <source>
-                <groupId>3db5364f-e812-3840-0000-000000000000</groupId>
-                <id>5fcfd039-af1c-3619-0000-000000000000</id>
-                <type>PROCESSOR</type>
-            </source>
-            <zIndex>0</zIndex>
-        </connections>
-        <connections>
-            <id>34244fd4-a24f-3753-0000-000000000000</id>
-            <parentGroupId>3db5364f-e812-3840-0000-000000000000</parentGroupId>
-            <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
-            <backPressureObjectThreshold>10000</backPressureObjectThreshold>
-            <destination>
-                <groupId>3db5364f-e812-3840-0000-000000000000</groupId>
-                <id>5fcfd039-af1c-3619-0000-000000000000</id>
+                <groupId>efe14a26-59ba-39bb-0000-000000000000</groupId>
+                <id>76de0bf7-baaf-3490-0000-000000000000</id>
                 <type>PROCESSOR</type>
             </destination>
             <flowFileExpiration>0 sec</flowFileExpiration>
@@ -48,45 +23,20 @@
             <name></name>
             <selectedRelationships>success</selectedRelationships>
             <source>
-                <groupId>3db5364f-e812-3840-0000-000000000000</groupId>
-                <id>672b64dc-0034-3a8d-0000-000000000000</id>
+                <groupId>efe14a26-59ba-39bb-0000-000000000000</groupId>
+                <id>eeee6d65-4c7c-3ccb-0000-000000000000</id>
                 <type>PROCESSOR</type>
             </source>
             <zIndex>0</zIndex>
         </connections>
         <connections>
-            <id>4feacddf-5aeb-3239-0000-000000000000</id>
-            <parentGroupId>3db5364f-e812-3840-0000-000000000000</parentGroupId>
+            <id>f1a2a76c-98a7-3ea6-0000-000000000000</id>
+            <parentGroupId>efe14a26-59ba-39bb-0000-000000000000</parentGroupId>
             <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
             <backPressureObjectThreshold>10000</backPressureObjectThreshold>
             <destination>
-                <groupId>3db5364f-e812-3840-0000-000000000000</groupId>
-                <id>8f4317c3-6d6f-3248-0000-000000000000</id>
-                <type>OUTPUT_PORT</type>
-            </destination>
-            <flowFileExpiration>0 sec</flowFileExpiration>
-            <labelIndex>1</labelIndex>
-            <loadBalanceCompression>DO_NOT_COMPRESS</loadBalanceCompression>
-            <loadBalancePartitionAttribute></loadBalancePartitionAttribute>
-            <loadBalanceStatus>LOAD_BALANCE_NOT_CONFIGURED</loadBalanceStatus>
-            <loadBalanceStrategy>DO_NOT_LOAD_BALANCE</loadBalanceStrategy>
-            <name></name>
-            <selectedRelationships>failure</selectedRelationships>
-            <source>
-                <groupId>3db5364f-e812-3840-0000-000000000000</groupId>
-                <id>149463ec-580c-3670-0000-000000000000</id>
-                <type>PROCESSOR</type>
-            </source>
-            <zIndex>0</zIndex>
-        </connections>
-        <connections>
-            <id>7d29662c-2483-39dc-0000-000000000000</id>
-            <parentGroupId>3db5364f-e812-3840-0000-000000000000</parentGroupId>
-            <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
-            <backPressureObjectThreshold>10000</backPressureObjectThreshold>
-            <destination>
-                <groupId>3db5364f-e812-3840-0000-000000000000</groupId>
-                <id>149463ec-580c-3670-0000-000000000000</id>
+                <groupId>efe14a26-59ba-39bb-0000-000000000000</groupId>
+                <id>9c3fe25f-0b8b-3cf6-0000-000000000000</id>
                 <type>PROCESSOR</type>
             </destination>
             <flowFileExpiration>0 sec</flowFileExpiration>
@@ -98,65 +48,15 @@
             <name></name>
             <selectedRelationships>success</selectedRelationships>
             <source>
-                <groupId>3db5364f-e812-3840-0000-000000000000</groupId>
-                <id>978f5f23-5020-3040-0000-000000000000</id>
-                <type>PROCESSOR</type>
-            </source>
-            <zIndex>0</zIndex>
-        </connections>
-        <connections>
-            <id>e79191b0-4fe3-38c7-0000-000000000000</id>
-            <parentGroupId>3db5364f-e812-3840-0000-000000000000</parentGroupId>
-            <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
-            <backPressureObjectThreshold>10000</backPressureObjectThreshold>
-            <destination>
-                <groupId>3db5364f-e812-3840-0000-000000000000</groupId>
-                <id>8f4317c3-6d6f-3248-0000-000000000000</id>
-                <type>OUTPUT_PORT</type>
-            </destination>
-            <flowFileExpiration>0 sec</flowFileExpiration>
-            <labelIndex>1</labelIndex>
-            <loadBalanceCompression>DO_NOT_COMPRESS</loadBalanceCompression>
-            <loadBalancePartitionAttribute></loadBalancePartitionAttribute>
-            <loadBalanceStatus>LOAD_BALANCE_NOT_CONFIGURED</loadBalanceStatus>
-            <loadBalanceStrategy>DO_NOT_LOAD_BALANCE</loadBalanceStrategy>
-            <name></name>
-            <selectedRelationships>failure</selectedRelationships>
-            <source>
-                <groupId>3db5364f-e812-3840-0000-000000000000</groupId>
-                <id>5fcfd039-af1c-3619-0000-000000000000</id>
-                <type>PROCESSOR</type>
-            </source>
-            <zIndex>0</zIndex>
-        </connections>
-        <connections>
-            <id>f15a2a1d-b2b2-301b-0000-000000000000</id>
-            <parentGroupId>3db5364f-e812-3840-0000-000000000000</parentGroupId>
-            <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
-            <backPressureObjectThreshold>10000</backPressureObjectThreshold>
-            <destination>
-                <groupId>3db5364f-e812-3840-0000-000000000000</groupId>
-                <id>7106d9bf-c320-350c-0000-000000000000</id>
-                <type>OUTPUT_PORT</type>
-            </destination>
-            <flowFileExpiration>0 sec</flowFileExpiration>
-            <labelIndex>1</labelIndex>
-            <loadBalanceCompression>DO_NOT_COMPRESS</loadBalanceCompression>
-            <loadBalancePartitionAttribute></loadBalancePartitionAttribute>
-            <loadBalanceStatus>LOAD_BALANCE_NOT_CONFIGURED</loadBalanceStatus>
-            <loadBalanceStrategy>DO_NOT_LOAD_BALANCE</loadBalanceStrategy>
-            <name></name>
-            <selectedRelationships>success</selectedRelationships>
-            <source>
-                <groupId>3db5364f-e812-3840-0000-000000000000</groupId>
-                <id>149463ec-580c-3670-0000-000000000000</id>
+                <groupId>efe14a26-59ba-39bb-0000-000000000000</groupId>
+                <id>d9549647-aab7-3ab1-0000-000000000000</id>
                 <type>PROCESSOR</type>
             </source>
             <zIndex>0</zIndex>
         </connections>
         <controllerServices>
-            <id>c7a06201-03c2-3710-0000-000000000000</id>
-            <parentGroupId>3db5364f-e812-3840-0000-000000000000</parentGroupId>
+            <id>c717d2c1-5f88-38a7-0000-000000000000</id>
+            <parentGroupId>efe14a26-59ba-39bb-0000-000000000000</parentGroupId>
             <bundle>
                 <artifact>nifi-record-serialization-services-nar</artifact>
                 <group>org.apache.nifi</group>
@@ -317,42 +217,12 @@
             <state>ENABLED</state>
             <type>org.apache.nifi.json.JsonTreeReader</type>
         </controllerServices>
-        <outputPorts>
-            <id>7106d9bf-c320-350c-0000-000000000000</id>
-            <parentGroupId>3db5364f-e812-3840-0000-000000000000</parentGroupId>
-            <position>
-                <x>1328.0</x>
-                <y>280.0</y>
-            </position>
-            <allowRemoteAccess>true</allowRemoteAccess>
-            <comments></comments>
-            <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
-            <name>success-output</name>
-            <state>RUNNING</state>
-            <transmitting>false</transmitting>
-            <type>OUTPUT_PORT</type>
-        </outputPorts>
-        <outputPorts>
-            <id>8f4317c3-6d6f-3248-0000-000000000000</id>
-            <parentGroupId>3db5364f-e812-3840-0000-000000000000</parentGroupId>
-            <position>
-                <x>848.0</x>
-                <y>784.0</y>
-            </position>
-            <allowRemoteAccess>true</allowRemoteAccess>
-            <comments></comments>
-            <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
-            <name>failure-output</name>
-            <state>RUNNING</state>
-            <transmitting>false</transmitting>
-            <type>OUTPUT_PORT</type>
-        </outputPorts>
         <processors>
-            <id>149463ec-580c-3670-0000-000000000000</id>
-            <parentGroupId>3db5364f-e812-3840-0000-000000000000</parentGroupId>
+            <id>76de0bf7-baaf-3490-0000-000000000000</id>
+            <parentGroupId>efe14a26-59ba-39bb-0000-000000000000</parentGroupId>
             <position>
                 <x>0.0</x>
-                <y>149.0</y>
+                <y>232.0</y>
             </position>
             <bundle>
                 <artifact>nifi-amqp-nar</artifact>
@@ -363,7 +233,7 @@
                 <backoffMechanism>PENALIZE_FLOWFILE</backoffMechanism>
                 <bulletinLevel>WARN</bulletinLevel>
                 <comments></comments>
-                <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+                <concurrentlySchedulableTaskCount>10</concurrentlySchedulableTaskCount>
                 <descriptors>
                     <entry>
                         <key>Exchange Name</key>
@@ -500,6 +370,7 @@
                         <value>NONE</value>
                     </entry>
                 </properties>
+                <retriedRelationships>failure</retriedRelationships>
                 <retryCount>10</retryCount>
                 <runDurationMillis>0</runDurationMillis>
                 <schedulingPeriod>0 sec</schedulingPeriod>
@@ -509,25 +380,25 @@
             <executionNodeRestricted>false</executionNodeRestricted>
             <name>PublishAMQP</name>
             <relationships>
-                <autoTerminate>false</autoTerminate>
+                <autoTerminate>true</autoTerminate>
                 <name>failure</name>
-                <retry>false</retry>
+                <retry>true</retry>
             </relationships>
             <relationships>
-                <autoTerminate>false</autoTerminate>
+                <autoTerminate>true</autoTerminate>
                 <name>success</name>
                 <retry>false</retry>
             </relationships>
-            <state>RUNNING</state>
+            <state>STOPPED</state>
             <style/>
             <type>org.apache.nifi.amqp.processors.PublishAMQP</type>
         </processors>
         <processors>
-            <id>5fcfd039-af1c-3619-0000-000000000000</id>
-            <parentGroupId>3db5364f-e812-3840-0000-000000000000</parentGroupId>
+            <id>9c3fe25f-0b8b-3cf6-0000-000000000000</id>
+            <parentGroupId>efe14a26-59ba-39bb-0000-000000000000</parentGroupId>
             <position>
-                <x>1272.0</x>
-                <y>504.0</y>
+                <x>560.0</x>
+                <y>0.0</y>
             </position>
             <bundle>
                 <artifact>nifi-mongodb-nar</artifact>
@@ -538,7 +409,7 @@
                 <backoffMechanism>PENALIZE_FLOWFILE</backoffMechanism>
                 <bulletinLevel>WARN</bulletinLevel>
                 <comments></comments>
-                <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+                <concurrentlySchedulableTaskCount>5</concurrentlySchedulableTaskCount>
                 <descriptors>
                     <entry>
                         <key>mongo-client-service</key>
@@ -658,7 +529,7 @@
                     </entry>
                     <entry>
                         <key>record-reader</key>
-                        <value>c7a06201-03c2-3710-0000-000000000000</value>
+                        <value>c717d2c1-5f88-38a7-0000-000000000000</value>
                     </entry>
                     <entry>
                         <key>insert_count</key>
@@ -680,7 +551,8 @@
                         <value>one</value>
                     </entry>
                 </properties>
-                <retryCount>10</retryCount>
+                <retriedRelationships>failure</retriedRelationships>
+                <retryCount>5</retryCount>
                 <runDurationMillis>0</runDurationMillis>
                 <schedulingPeriod>0 sec</schedulingPeriod>
                 <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
@@ -689,25 +561,25 @@
             <executionNodeRestricted>false</executionNodeRestricted>
             <name>PutMongoRecord</name>
             <relationships>
-                <autoTerminate>false</autoTerminate>
+                <autoTerminate>true</autoTerminate>
                 <name>failure</name>
-                <retry>false</retry>
+                <retry>true</retry>
             </relationships>
             <relationships>
-                <autoTerminate>false</autoTerminate>
+                <autoTerminate>true</autoTerminate>
                 <name>success</name>
                 <retry>false</retry>
             </relationships>
-            <state>RUNNING</state>
+            <state>STOPPED</state>
             <style/>
             <type>org.apache.nifi.processors.mongodb.PutMongoRecord</type>
         </processors>
         <processors>
-            <id>672b64dc-0034-3a8d-0000-000000000000</id>
-            <parentGroupId>3db5364f-e812-3840-0000-000000000000</parentGroupId>
+            <id>d9549647-aab7-3ab1-0000-000000000000</id>
+            <parentGroupId>efe14a26-59ba-39bb-0000-000000000000</parentGroupId>
             <position>
-                <x>136.0</x>
-                <y>736.0</y>
+                <x>560.0</x>
+                <y>240.0</y>
             </position>
             <bundle>
                 <artifact>nifi-amqp-nar</artifact>
@@ -718,7 +590,7 @@
                 <backoffMechanism>PENALIZE_FLOWFILE</backoffMechanism>
                 <bulletinLevel>WARN</bulletinLevel>
                 <comments></comments>
-                <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+                <concurrentlySchedulableTaskCount>10</concurrentlySchedulableTaskCount>
                 <descriptors>
                     <entry>
                         <key>Queue</key>
@@ -888,15 +760,15 @@
                 <name>success</name>
                 <retry>false</retry>
             </relationships>
-            <state>RUNNING</state>
+            <state>STOPPED</state>
             <style/>
             <type>org.apache.nifi.amqp.processors.ConsumeAMQP</type>
         </processors>
         <processors>
-            <id>978f5f23-5020-3040-0000-000000000000</id>
-            <parentGroupId>3db5364f-e812-3840-0000-000000000000</parentGroupId>
+            <id>eeee6d65-4c7c-3ccb-0000-000000000000</id>
+            <parentGroupId>efe14a26-59ba-39bb-0000-000000000000</parentGroupId>
             <position>
-                <x>1168.0</x>
+                <x>0.0</x>
                 <y>0.0</y>
             </position>
             <bundle>
@@ -908,7 +780,7 @@
                 <backoffMechanism>PENALIZE_FLOWFILE</backoffMechanism>
                 <bulletinLevel>WARN</bulletinLevel>
                 <comments></comments>
-                <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+                <concurrentlySchedulableTaskCount>10</concurrentlySchedulableTaskCount>
                 <descriptors>
                     <entry>
                         <key>Base Path</key>
@@ -1093,10 +965,10 @@
                 <name>success</name>
                 <retry>false</retry>
             </relationships>
-            <state>RUNNING</state>
+            <state>STOPPED</state>
             <style/>
             <type>org.apache.nifi.processors.standard.ListenHTTP</type>
         </processors>
     </snippet>
-    <timestamp>06/08/2022 09:09:35 UTC</timestamp>
+    <timestamp>06/10/2022 08:56:14 UTC</timestamp>
 </template>

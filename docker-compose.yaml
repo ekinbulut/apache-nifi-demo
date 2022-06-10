@@ -46,6 +46,8 @@ services:
       interval: 10s
       timeout: 10s
       retries: 3
+    depends_on:
+      - mongodb
   mongodb:
     image: mongo:5.0.9-focal
     container_name: mongodb
@@ -73,6 +75,9 @@ services:
       - nifi-network
     ports:
       - "8081:8081"
+    depends_on:
+      - nifi
+
   karate-tests:
     image: karate-tests
     build:

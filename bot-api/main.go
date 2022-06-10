@@ -4,7 +4,6 @@ import (
 	"bytes"
 	"encoding/json"
 	"fmt"
-	"io"
 	"net/http"
 	"sync"
 	"time"
@@ -240,7 +239,7 @@ var DefaultPayload = &OrderPayload{
 func main() {
 
 	var wg sync.WaitGroup
-	for i := 0; i < 100; i++ {
+	for i := 0; i < 10000; i++ {
 		wg.Add(1)
 		go func(index int, wg *sync.WaitGroup) {
 			defer wg.Done()
@@ -257,11 +256,10 @@ func main() {
 				fmt.Println(err.Error())
 			}
 
-			b, err := io.ReadAll(resp.Body)
-
-			fmt.Printf("Response received -> %s \n", string(b))
+			fmt.Printf("Response received -> %d: %s\n", index, resp.Status)
 
 		}(i, &wg)
+		time.Sleep(20 * time.Millisecond)
 
 	}
 	wg.Wait()
