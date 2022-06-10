@@ -19,4 +19,15 @@ This projects contains a simple Apache NiFi demo works with docker.
  docker-compose up -d
 ```
 
+## Nifi 
+
+Enter the adress below to browser
+```
+  https://localhost:8443/nifi
+```
+
+```
+username: admin
+password: ctsBtRBKHRAx69EqUghvvgEvjnaLjFEB
+```
 # Contribute
